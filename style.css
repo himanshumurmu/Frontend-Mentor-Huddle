@@ -1,0 +1,116 @@
+body {
+  background-color: hsl(257, 40%, 49%);
+  background-image: url(images/bg-desktop.svg);
+  margin: 0;
+  background-size: cover;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-size: 1.5rem;
+  padding-top: 4rem;
+  padding-right: 100px;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  color: #cfc7e6
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:hover {
+  color: Violet;
+}
+
+.about {
+  font-size: 14px;
+  line-height: 1.5;
+  padding-right: 55px;
+}
+
+.container {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 65% 35%;
+}
+
+.img {
+  margin-top: 25px;
+  margin-left: 60px;
+  margin-right: 20px;
+}
+
+.logo {
+  padding-left: 2.5rem;
+  padding-top: 2rem;
+}
+
+.btn {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 25px;
+  height: 45px;
+  line-height: 45px;
+  color: #674BAF;
+  font-family: Arial;
+  width: 200px;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 0;
+  margin-top: 20px;
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: 0 2px 5px 0 #000000;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  background: #E882E8;
+  border: solid #E882E8 1px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.icons {
+    float: right;
+    padding-right: 50px;
+    padding-bottom: 30px;
+}
+
+.icon {
+    border: 1px solid #ffffff;
+    color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.icon:hover{
+  color: hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);
+}
+
+.attribution {
+  text-align: center;
+  padding-top: 40px;
+}
+footer{
+  margin: 0;
+  font-size: 12px;
+}
