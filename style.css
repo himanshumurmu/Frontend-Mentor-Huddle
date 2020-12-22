@@ -116,7 +116,7 @@ footer{
   margin: 0;
   font-size: 12px;
 }
-@media screen and (max-widht:786px) {
+@media screen and (max-widht:750px) {
   body{
     background-image: url(images/bg-mobile.svg);
   }
@@ -130,15 +130,18 @@ footer{
   }
   .img{
     grid-row-start: 1;
-
+    width: 100%;
   }
   .about{
     grid-row-start: 2;
+    grid-coloumn-start: 1;
     text-align: center;
   }
   .icons{
     grid-row-start: 3;
     float: none;
+    display: flex;
+    align-items: center;
   }
   .attribution{
     grid-row-start: 4;
