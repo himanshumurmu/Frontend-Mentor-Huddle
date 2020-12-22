@@ -31,18 +31,20 @@ a:hover {
   font-size: 14px;
   line-height: 1.5;
   padding-right: 55px;
+  grid-column-start: 2;
 }
 
 .container {
   margin-top: 40px;
   display: grid;
-  grid-template-columns: 65% 35%;
+  grid-template-columns: 1 fr, 1 fr;
 }
 
 .img {
   margin-top: 25px;
   margin-left: 60px;
   margin-right: 20px;
+  grid-column-start: 1;
 }
 
 .logo {
@@ -113,4 +115,32 @@ a:hover {
 footer{
   margin: 0;
   font-size: 12px;
+}
+@media screen and (max-widht:786px) {
+  body{
+    background-image: url(images/bg-mobile.svg);
+  }
+  .container{
+    display: grid;
+    grid-template-columns: 1 fr;
+    grid-template-rows: 1 fr, 1 fr,50px,50px;
+  }
+  .logo{
+    padding: 10%;
+  }
+  .img{
+    grid-row-start: 1;
+
+  }
+  .about{
+    grid-row-start: 2;
+    text-align: center;
+  }
+  .icons{
+    grid-row-start: 3;
+    float: none;
+  }
+  .attribution{
+    grid-row-start: 4;
+  }
 }
